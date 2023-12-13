@@ -11,7 +11,10 @@ int main(){
 	int fd1,fd2,n;
 	char inmsg[MAXLINE];
 	fd1 = open("./chatfifo1",O_RDONLY);
+	printf("fd1 open\n");
+	
 	fd2 = open("./chatfifo2",O_WRONLY);
+	printf("fd2 open\n");
 	
 	if(fd1 == -1 || fd2 == -1){
 		perror("open");
