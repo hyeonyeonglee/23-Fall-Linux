@@ -1,0 +1,1 @@
+cmd_/home/gusdud/workspace/c/my_project/kernel_module/driver.mod := { echo  /home/gusdud/workspace/c/my_project/kernel_module/driver.o;  echo; } > /home/gusdud/workspace/c/my_project/kernel_module/driver.mod

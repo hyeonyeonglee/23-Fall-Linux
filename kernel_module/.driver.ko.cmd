@@ -1,0 +1,1 @@
+cmd_/home/gusdud/workspace/c/my_project/kernel_module/driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/gusdud/workspace/c/my_project/kernel_module/driver.ko /home/gusdud/workspace/c/my_project/kernel_module/driver.o /home/gusdud/workspace/c/my_project/kernel_module/driver.mod.o;  true
